@@ -101,10 +101,10 @@ void Stiva<T>::pop()
 int main()
 {
     Stack <int> stiva;
-    stiva.push(99);
-    stiva.push(14);
-    stiva.push(93);
-    stiva.push(100);
+    stiva.push(92);
+    stiva.push(12);
+    stiva.push(91);
+    stiva.push(101);
     cout<<stiva.top()<<endl;
     stiva.pop();
     cout<<stiva.top()<<endl;
@@ -113,9 +113,9 @@ int main()
     stiva.pop();
     cout<<stiva.top()<<endl;
     if(stiva.isEmpty())
-        cout<<"Desigur";
+        cout<<"Of course";
     else
-        cout<<"Din pacate, nu";
+        cout<<"No";
     cout<<"\n\n";
     Stiva<int> s;
     s.push(3);
